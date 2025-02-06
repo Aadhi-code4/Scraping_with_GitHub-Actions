@@ -16,7 +16,7 @@ jobs:
       run: |
         date > date.txt
         git config --global user.name "Aadhi-code4"
-        git config --global user.email "23f2004462@ds.study.iitm.ac.in"
+        git config --global user.email "aadhilingam57910@gmail.com"
         git add date.txt
         git commit -m "Daily commit $(date)"
         git push
