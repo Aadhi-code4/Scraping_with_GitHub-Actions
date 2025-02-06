@@ -2,7 +2,7 @@ name: Daily_Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This runs the workflow daily at 00:00 UTC
+    - cron: '*/5 * * * *'  # This runs the workflow daily at 00:00 UTC
 
 jobs:
   daily-commit-job:
