@@ -2,7 +2,7 @@ name: Daily_Commit
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # This runs the workflow daily at 00:00 UTC
+    - cron: '*/5 * * * *'  
 
 jobs:
   daily-commit-job:
@@ -15,8 +15,8 @@ jobs:
     - name: Make a Commit by 23f2004462@ds.study.iitm.ac.in
       run: |
         date > date.txt
-        git config --global user.name "Aadhi-code4"  # Replace with your GitHub username
-        git config --global user.email "aadhilingam57910@gmail.com"   # Replace with your email
+        git config --global user.name "Aadhi-code4" 
+        git config --global user.email "aadhilingam57910@gmail.com"  
         git add date.txt
         git commit -m "Daily commit $(date)"
         git push
