@@ -19,4 +19,4 @@ jobs:
         git config --global user.email "aadhilingam57910@gmail.com"
         git add date.txt
         git commit -m "Daily commit $(date)"
-        git push https://github.com/${{ secrets.ACTIONS_PAT }}:x-oauth-basic@github.com/Aadhi-code4/Scraping_with_GitHub-Actions.git
+        git push https://github.com/Aadhi-code4/Scraping_with_GitHub-Actions.git main
