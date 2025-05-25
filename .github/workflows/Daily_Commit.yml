@@ -2,7 +2,7 @@ name: 23f2004462@ds.study.iitm.ac.in
 
 on:
   schedule:
-    - cron: '0 0 * * *'  
+    - cron: '0 0 1 * *'  
 
 jobs:
   daily-commit-job:
